@@ -319,6 +319,7 @@ a:hover {
     position: absolute;
     top: 50%;
     right: 12%;
+    list-style-type: none;
 }
 
 .nav > li {
