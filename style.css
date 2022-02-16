@@ -314,7 +314,7 @@ a:hover {
 .nav-center .navbar-brand img {
     margin: 0;
 }
-
+.site-navigation,
 .navbar .nav {
     position: absolute;
     top: 50%;
