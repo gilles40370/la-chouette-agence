@@ -1,29 +1,26 @@
 <!doctype html>
-<!-- modification de la langue -->
-<html lang="fr">
+<html lang="Default">
 <head>
     <meta charset="utf-8">
-	<!-- remplissage des deux meta name -->
-    <meta  name =" keywords " content =" Accueil La Chouette Agence, Chouette Agence, Chouette, Agence web, Lyon, Agence web Lyon, Digital, Stratégie, Site internet, Site web, Web, Création de site web, Design, Création de design, Création de maquette web, Maquette web " >
-    <meta  name =" description " content =" La Chouette agence, une agence de webdesign basée à Lyon qui aide les entreprises à devenir attractives et visibles sur Internet en définissant une stratégie et un design à votre image. " >
+    <meta name="keywords" content="">
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-	<meta name="robots" content="index, follow">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	
+    
 	<script src="./js/jquery-2.1.0.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/blocs.min.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
-	<!-- redonner un tittre nous contacter -->
-    <title>Contact</title>
+    <title>page2</title>
 
-    <!-- ajout favicon  ncahnger la forme du formulaire et le contraste des couleur -->
+    
 <!-- Analytics -->
  
 <!-- Analytics END -->
@@ -31,9 +28,10 @@
 </head>
 <body>
 <!-- Principal conteneur -->
+<div class="page-container">
     
 <!-- bloc-0 -->
-<header class="bloc bgc-white l-bloc " id="bloc-0">
+<div class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
@@ -47,19 +45,23 @@
 					<li>
 						<a href="index.html">Accueil</a>
 					</li>
+					<li>
+					</li>
+					<li>
+						<a href="page2.html">page2 &gt;</a>
+					</li>
 				</ul>
 			</div>
 		</nav>
 	</div>
-</header>
+</div>
 <!-- bloc-0 END -->
-<main>
+
 <!-- bloc-6 -->
-<section class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
-				<!--mauvaise pratique-->
 				<h1 class="text-center hero-bloc-text tc-white">
 					Parlons web design !
 				</h1>
@@ -70,7 +72,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</div>
 <!-- bloc-6 END -->
 
 <!-- bloc-7 -->
@@ -78,95 +80,89 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form action="includes/form_1.php" method="post" class="form_1" novalidate>
+				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label for="name">
+						<label>
 							Nom
 						</label>
-						<input type="text" id="name" placeholder="Entrez votre nom et prénom"
-							class="form-control" required />
+						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label for="email">
+						<label>
 							Adresse email
 						</label>
-						<input type="email" id="email" placeholder="Entrez une adresse email valide"
-							class="form-control" required />
+						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label for="info">
-							Comment connaissez-vous La chouette agence?
+						<label>
+							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="text" placeholder="Racontez-nous" required
-							id="info" />
+						<input class="form-control" type="email" required id="input_504" />
 					</div>
 					<div class="form-group">
-						<label for="message">
-							Parlez-nous de votre projet. Ajoutez autant de détails que nécessaire.<br>
-						</label>
-						<textarea id="message" class="form-control" rows="4" cols="50"
-							placeholder="Entrez votre message" required></textarea>
-					</div>
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
-						type="submit">
+						<label>
+							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+					</div> 
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
 					</button>
 				</form>
 			</div>
 			<div class="col-sm-6">
 				<p>
-					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi
-					au vendredi<br>
+					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 				</p>
 			</div>
 		</div>
 	</div>
 </div>
 <!-- bloc-7 END -->
-</main>
+
 <!-- ScrollToTop Button -->
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 <!-- ScrollToTop Button END-->
 
 
 <!-- Footer - bloc-8 -->
-<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
 				<p class="text-center white">
-					La chouette agence - Agence web basée à Lyon.
+					La chouette agence - Agence web basée à Lyon.<br>
 				</p>
-				<nav class="row row-no-gutters social">
+				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="twitter" class="social" href="https://twitter.com"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="facebook" class="social" href="https://facebook.fr"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="dribbble" class="social" href="http://dribbble.com"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="instagram" class="social" href="http://instagram.com"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
-				</nav>
+				</div>
 			</div>
 		</div>
 	</div>
-</footer>
+</div>
 <!-- Footer - bloc-8 END -->
 
-
-
+</div>
+<!-- Principal conteneur END -->
+    
 
 </body>
 </html>
