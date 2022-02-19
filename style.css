@@ -92,7 +92,7 @@ a:hover {
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
-    background-size: 0px 0px;
+    background-size: 280px 280px;
 }
 
 .b-parallax {
@@ -775,8 +775,8 @@ h4 {
     background-color: #F3976C;
 }
 
-.black {
-    color:black!important;
+.tc-white {
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
