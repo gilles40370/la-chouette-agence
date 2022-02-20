@@ -6,7 +6,11 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.linear-gradient{
+    background-image: linear-gradient( #ff5b6e, #f8dc75);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -438,7 +442,7 @@ nav .caret {
 
 .mg-md {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .mg-lg {
@@ -678,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -706,7 +710,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 25px;
     line-height: 1.4em;
 }
 
@@ -776,7 +780,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
