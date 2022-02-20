@@ -682,9 +682,11 @@ a {
 }
 
 p {
-    font-size: 15px;
+    font-size: 17px;
 }
-
+.black{
+    color: #232323;
+}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -741,7 +743,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color:#FFFFFF !important;
 }
 
 .portfolio-thumb {
