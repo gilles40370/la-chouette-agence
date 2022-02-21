@@ -759,7 +759,10 @@ h4 {
     margin-bottom: 44px;
     margin-top: 50px;
 }
-
+div.form-group:nth-child(4) > label:nth-child(1) {
+    margin-top: 5px;
+   }
+   
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
@@ -905,7 +908,11 @@ h4 {
     .page-container {
         overflow-x: hidden;
         position: relative;
-    }
+    }section.bloc:nth-child(3) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) {
+        margin-left: 11px;
+       }
+       
+
     h1,
     h2,
     h3,
