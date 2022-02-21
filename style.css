@@ -660,9 +660,12 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 100%;
+    width:95%;
 }
-
+.text-center{
+    text-align:center;
+}
 .hero-bloc-text {
     font-size: 38px;
 }
