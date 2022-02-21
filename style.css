@@ -661,9 +661,9 @@ a {
 
 .container {
     max-width: 100%;
-    width:95%;
+    width:96%;
 }
-.text-center{
+h1.text-center{
     text-align:center;
 }
 .hero-bloc-text {
